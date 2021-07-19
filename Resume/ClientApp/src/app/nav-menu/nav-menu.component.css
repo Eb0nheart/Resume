@@ -2,6 +2,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: orange;
 }
 
 html {
@@ -15,4 +16,12 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+h1{
+  color:orange;
 }
