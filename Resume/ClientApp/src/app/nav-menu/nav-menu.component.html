@@ -1,5 +1,14 @@
-<header class="p-2 mb-3 row" >
-  <h1 class="header-text-bg-black col">
-    <a class="header-text-bg-black"  [routerLink]="['/']">My Resume</a>
-  </h1>
+<header class="p-2 mb-3" >
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="">
+        <a class="header-text-bg-black" [routerLink]="['/']">My Resume</a>
+      </h1>
+      <ul class="navbar-nav flex-grow">
+        <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+          <a class="header-text-bg-black nav-item" [routerLink]="['/experience']">Experience & education</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>

@@ -3,9 +3,13 @@ header{
 }
 
 h1{
-  margin-left: 22%;
+  margin-left: 15%;
 }
 
 a{
   text-decoration: none;
+}
+
+.nav-item{
+  text-align: end;
 }
